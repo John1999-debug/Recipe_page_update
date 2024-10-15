@@ -1,0 +1,361 @@
+.main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.item-1{
+    height: 150px;
+    width: 100%;
+    background-image: url(image-omelette.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item-2{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.item-3{
+    width: 180px;
+    background-color: #FFF5FA;
+    margin-left: 55px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    margin-top: 10px;
+
+}
+.item-4{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9cddc;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.item-5{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9cddc;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.item-6{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.a{
+    margin-top: 10px;
+}
+.b{
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9cddc;
+}
+.c{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9cddc;
+}
+.d{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9cddc;
+}
+.e{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+h2{
+    color: #302D2C;
+    font-weight: normal;
+    font-family: "Young Serif";
+    margin-bottom: 5px;
+    line-height: 30px;
+    font-size: xx-large;
+}
+h4{
+    font-weight: normal;
+    font-family: "Young Serif";
+    color: #854632;
+    padding: 0;
+    margin: 0;
+}
+h5{
+    font-weight: 600;
+    font-family: "Outfit";
+    color: #7B284F;
+    margin: 0;
+}
+p{
+    font-weight: 400;
+    font-family: "Outfit";
+}
+li::marker {
+    font-size: 6px;
+}
+
+ul{
+    padding: 0;
+    padding-left: 12px;
+    margin-top: 5px;
+}
+ol li::marker {
+    font-size: x-small;
+    font-weight: bold;
+    color: #5c3223;
+    font-family: "Outfit";
+}
+ol{
+    padding: 0;
+    padding-left: 15px;
+}
+br{
+    line-height: 5px;
+}
+strong{
+    font-weight: 600;
+}
+p1{
+    font-weight: 400;
+    font-family: "Outfit";
+    color: #302D2C;
+    font-size: x-small;
+}
+p2{
+    font-family: "Outfit";
+    font-size: x-small;
+    margin: 0;
+    color: #5c3223;
+}
+p3{
+    font-family: "Outfit";
+    font-size: x-small;
+    margin: 0;
+    color: #5c3223;
+}
+p4{
+    font-family: "Outfit";
+    font-size: x-small;
+    margin: 0;
+    color: #5c3223;
+}
+p5{
+    font-family: "Outfit";
+    font-size: x-small;
+    margin: 0;
+    color: #5c3223;
+}
+span1{
+    margin-right: 80px;
+}
+span2{
+    margin-right: 90px;
+}
+span3{
+    margin-right: 85px;
+}
+span4{
+    margin-right: 98px;
+}
+
+
+@media (min-width:375px){
+    body{
+        background-color: #F3E6D8;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F3E6D8;
+    }
+    .row{
+        width: 650px;
+        margin-top: 122px;
+        margin-bottom: 122px;
+        border-radius: 8px;
+        background-color: white;
+        align-items: center;
+    }   
+    .item-1{
+        width: 600px;
+        height: 265px;
+        margin: 40px;
+        background-image: url(image-omelette.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        align-self: center;
+        text-align: center;
+    }
+    .item-2{
+        width: 600px;
+        height: auto;
+        margin: 40px;
+        margin-bottom: 10px;
+    }
+    .item-3{
+        width: 550px;
+        height: 160px;
+        background-color: #FFF5FA;
+        margin: auto;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        border-radius: 6px;
+    
+    }
+    .item-4{
+        width: 550px;
+        height: auto;
+        margin: 40px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e9cddc;
+    }
+    .item-5{
+        width: 550px;
+        height: auto;
+        margin: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e9cddc;
+    }
+    .item-6{
+        width: 550px;
+        height: auto;
+        margin: 40px;
+    }
+    .a{
+        margin-top: 10px;
+    }
+    .b{
+        margin-top: 15px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e9cddc;
+    }
+    .c{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e9cddc;
+    }
+    .d{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e9cddc;
+    }
+    .e{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    h2{
+        color: #302D2C;
+        font-weight: normal;
+        font-family: "Young Serif";
+        font-size: 36px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-weight: normal;
+        font-family: "Young Serif";
+        font-size: 28px;
+        color: #854632;
+        padding: 0;
+        margin: 0;
+    }
+    h5{
+        font-weight: 600;
+        font-family: "Outfit";
+        font-size: 22px;
+        color: #7B284F;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    p{
+        font-weight: 400;
+        font-family: "Outfit";
+    }
+    li::marker {
+        font-size: 6px;
+    }
+    
+    ul{
+        padding: 0;
+        padding-left: 12px;
+        margin-top: 5px;
+    }
+    ol li::marker {
+        font-size: small;
+        font-weight: bold;
+        color: #5c3223;
+        font-family: "Outfit";
+    }
+    ol{
+        padding: 0;
+        padding-left: 20px;
+    }
+    br{
+        line-height: 5px;
+    }
+    strong{
+        font-weight: 600;
+    }
+    p1{
+        font-weight: 400;
+        font-family: "Outfit";
+        color: #302D2C;
+        font-size: 17px;
+    }
+    p2{
+        font-family: "Outfit";
+        font-size: 17px;
+        margin: 0;
+        margin-top: 5px;
+        color: #5c3223;
+    }
+    p3{
+        font-family: "Outfit";
+        font-size: 17px;
+        margin: 0;
+        color: #5c3223;
+    }
+    p4{
+        font-family: "Outfit";
+        font-size: 16px;
+        margin: 0;
+        color: #5c3223;
+    }
+    p5{
+        font-family: "Outfit";
+        font-size: 17px;
+        margin: 0;
+        color: #5c3223;
+    }
+    span1{
+        margin-right: 250px;
+    }
+    span2{
+        margin-right: 265px;
+    }
+    span3{
+        margin-right: 255px;
+    }
+    span4{
+        margin-right: 277px;
+    }
+}
+
+
+
+
